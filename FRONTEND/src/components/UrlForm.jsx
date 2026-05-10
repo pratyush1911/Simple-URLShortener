@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
-const BACKEND_CREATE_URL = "http://localhost:3000/api/create";
+const BACKEND_CREATE_URL = "https://simple-urlshortener-ujaa.onrender.com";
 
 const UrlForm = () => {
   const [inputUrl, setInputUrl] = useState("");
